@@ -1,0 +1,31 @@
+<svg width="680" height="200" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @font-face {
+        font-family: 'Black Ops One';
+        src: url('../fonts/BlackOpsOne-Regular.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'Oswald';
+        src: url('../fonts/Oswald-Bold.ttf') format('truetype');
+      }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="5" height="200" fill="#ffffff" opacity="0.6"/>
+
+  <text x="52" y="95"
+    font-family="'Black Ops One', sans-serif"
+    font-size="86"
+    fill="#ffffff"
+    letter-spacing="3">HARRISON</text>
+
+  <rect x="52" y="105" width="590" height="2" fill="#ffffff" opacity="0.5"/>
+
+  <text x="56" y="155"
+    font-family="'Oswald', sans-serif"
+    font-weight="600"
+    font-size="45"
+    fill="#b8d8f5"
+    letter-spacing="10">PEST MANAGEMENT</text>
+</svg>
