@@ -1,0 +1,36 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1254a0"/>
+      <stop offset="100%" stop-color="#08111e"/>
+    </linearGradient>
+    <linearGradient id="hGrad" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#eef4ff"/>
+      <stop offset="100%" stop-color="#b8d8f5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hex background -->
+  <polygon points="16,1 29,8.5 29,23.5 16,31 3,23.5 3,8.5"
+           fill="url(#bg)" stroke="#1d71d4" stroke-width="1.2"/>
+
+  <!-- Inner hex subtle ring -->
+  <polygon points="16,4 26.5,10 26.5,22 16,28 5.5,22 5.5,10"
+           fill="none" stroke="rgba(77,163,245,0.25)" stroke-width="0.6"/>
+
+  <!-- H lettermark -->
+  <text x="16" y="22"
+        font-family="'Black Ops One', 'Arial Black', sans-serif"
+        font-size="18"
+        font-weight="900"
+        fill="url(#hGrad)"
+        text-anchor="middle"
+        letter-spacing="0">H</text>
+
+  <!-- White accent bar (mirrors the logo's left bar) -->
+  <rect x="4.5" y="9" width="1.5" height="14" fill="#ffffff" opacity="0.55" rx="0.5"/>
+
+  <!-- Tiny red X in bottom-right corner — the "eliminated" motif -->
+  <line x1="23" y1="21" x2="28" y2="26" stroke="#e03b3b" stroke-width="1.6" stroke-linecap="round"/>
+  <line x1="28" y1="21" x2="23" y2="26" stroke="#e03b3b" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
